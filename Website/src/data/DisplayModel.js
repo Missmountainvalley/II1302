@@ -24,6 +24,7 @@ class DisplayModel extends ObservableModel {
   }
 
   newStorage(message) {
+    console.log(message);
     firebase.database().ref("message").set({
       msg: message
     });
