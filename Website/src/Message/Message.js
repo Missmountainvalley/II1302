@@ -9,6 +9,7 @@ class Message extends Component {
   }
 
   newPage(){
+    modelInstance.newStorage(localStorage.getItem("message"));
     window.location.replace('confirm');
   }
   render() {

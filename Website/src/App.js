@@ -12,6 +12,7 @@ import Contact from "./Contact/contact";
 export class App extends Component {
   constructor(props) {
     super(props);
+    modelInstance.databaseInistalize();
   }
 
   render() {
