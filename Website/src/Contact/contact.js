@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./contact.css";
 import zei from "../images/zei.jpeg"
+import jb from "../images/jb.jpeg"
 
 class Contact extends Component {
   render() {
@@ -9,7 +10,7 @@ class Contact extends Component {
         <p className="contact-title1">FOUNDERS</p>
         <div className="founders">
           <div className="jb">
-            <img alt="Jasmine" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/82542855_833828990410742_5885283618581905408_n.jpg?_nc_cat=102&_nc_ohc=BtLSzNMRQSsAX-e_nxt&_nc_ht=scontent-arn2-1.xx&oh=2269e2a8d79abc83b35d9d01cb9c9659&oe=5E985C2A" className="bildjb"></img>
+            <img alt="Jasmine" src={jb} className="bildjb"></img>
             <p className="contact-title3"> Jasmine Bergdahl</p>
             <p className="contact-title4"> Email: jasber@kth.se</p>
           </div>
