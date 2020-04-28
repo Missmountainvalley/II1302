@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./contact.css";
 import zei from "../images/zei.jpeg"
 import jb from "../images/jb.jpeg"
-import cs from "../images/cs.jpeg"
-import Ina from "../images/Ina.jpeg"
+import cs from "../images/cs.jpg"
+import Ina from "../images/Ina.jpg"
 
 class Contact extends Component {
   render() {

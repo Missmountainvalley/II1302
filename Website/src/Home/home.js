@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./home.css";
+import logo from "../images/logo.png"
 
 class Home extends Component {
   newPage() {
@@ -16,7 +17,7 @@ class Home extends Component {
       <p className="headline1">Welcome to your door-display application!</p>
       <div className="subhead">
         <p className="sub-headline">Time to update your display!</p>
-        <img alt="pic" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/cp0/95351073_3186433474714299_5257078603534827520_n.jpg?_nc_cat=103&_nc_sid=e007fa&_nc_ohc=gF9Y8cnnB6QAX-8I_99&_nc_ht=scontent-arn2-1.xx&oh=d988dfdad5c27fc41eaf19e3f729f26d&oe=5ECCC510" className = "bild4"></img>
+        <img alt="pic" src={logo} className = "bild4"></img>
       </div>
       <div className ="divbtn">
         <button className="newPage" onClick={this.newPage}>Write message</button>
