@@ -8,6 +8,7 @@ import Confirm from "./Confirm/Confirm";
 import Message from "./Message/Message";
 import AboutUs from "./AboutUs/aboutUs";
 import Contact from "./Contact/contact";
+import logo from "../images/logo.png"
 
 export class App extends Component {
   constructor(props) {
@@ -21,7 +22,7 @@ export class App extends Component {
       <header className="App-header">
         <div className="header">
           <Link to="/">
-            <img className="logo" alt="logo" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/81941738_2827638963959351_4037664515490316288_n.png?_nc_cat=101&_nc_ohc=4Yoloc1KL7AAQn8QiWSudnHK6PVBmxNlGmSQ1jATv10lnAXW2PKkdNAfw&_nc_ht=scontent-arn2-1.xx&oh=816d7dfdfee239d2e75f275ac53617ef&oe=5EAFE9FC"></img>
+          <img alt="logo" src={logo} className = "logo"></img>
             <p className="msgDlvry">MSG DLVRY</p>
           </Link>
           <Link to="/contact">
