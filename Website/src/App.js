@@ -8,7 +8,7 @@ import Confirm from "./Confirm/Confirm";
 import Message from "./Message/Message";
 import AboutUs from "./AboutUs/aboutUs";
 import Contact from "./Contact/contact";
-import logo from "../images/logo.png"
+import logo from "./images/logo.png"
 
 export class App extends Component {
   constructor(props) {
