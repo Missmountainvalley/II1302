@@ -3,7 +3,7 @@ import "./contact.css";
 import zei from "../images/zei.jpeg"
 import jb from "../images/jb.jpeg"
 import cs from "../images/cs.jpg"
-import Ina from "../images/Ina.jpg"
+import ina from "../images/Ina.jpg"
 import amanda from "../images/amanda.jpg"
 
 class Contact extends Component {
@@ -18,7 +18,7 @@ class Contact extends Component {
             <p className="contact-title4"> Email: jasber@kth.se</p>
           </div>
           <div className="ir">
-            <img alt="Ina" src={Ina} className="bildir"></img>
+            <img alt="Ina" src={ina} className="bildir"></img>
             <p className="contact-title5"> Ina Rickman</p>
             <p className="contact-title6"> Email: inaric@kth.se</p>
           </div>

@@ -1,8 +1,5 @@
 import ObservableModel from "./ObservableModel";
-import * as firebase from "firebase/app";
-import "firebase/auth";
-import "firebase/firestore";
-import "firebase/database";
+import firebase from 'firebase';
 
 class DisplayModel extends ObservableModel {
   constructor() {
