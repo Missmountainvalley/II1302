@@ -20,7 +20,7 @@ class Home extends Component {
         <img alt="pic" src={logo} className = "bild4"></img>
       </div>
       <div className ="divbtn">
-        <button className="newPage" onClick={this.newPage}>Write message</button>
+        <button className="newPage" id="newPageBtn" onClick={this.newPage}>Write message</button>
       </div>
       <div className="picDiv">
         <img alt="pic" src="https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=austin-distel-Imc-IoZDMXc-unsplash.jpg" className = "bild marginRight"></img>
