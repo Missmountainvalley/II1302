@@ -8,8 +8,6 @@ class Confirm extends Component {
     super(props);
   }
 
- 
-
   render() {
     return (
       <div className="frame">
