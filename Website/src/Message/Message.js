@@ -11,7 +11,7 @@ class Message extends Component {
   newPage(){
     modelInstance.newStorage(localStorage.getItem("message"));
   }
-  
+
   render() {
     return (
       <div>
@@ -20,7 +20,7 @@ class Message extends Component {
         <form>
           <input type="text" id="message" onChange={event =>{modelInstance.newMessage(event)}} name="message" placeholder="Enter message..."/>
         </form>
-        <Link to="/confirm"><button className="submitBtn" onClick={() =>{this.newPage()}}>Submit message!</button></Link>
+        <Link to="/confirm"><button className="submitBtn" id="SubmitBtn" onClick={() =>{this.newPage()}}>Submit message!</button></Link>
       </div>
     );
   }
