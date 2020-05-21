@@ -8,7 +8,7 @@ import Confirm from "./Confirm/Confirm";
 import Message from "./Message/Message";
 import AboutUs from "./AboutUs/aboutUs";
 import Contact from "./Contact/contact";
-import logo from "./images/logo.png"
+
 
 export class App extends Component {
   constructor(props) {
@@ -22,7 +22,7 @@ export class App extends Component {
       <header className="App-header">
         <div className="header">
           <Link to="/">
-          <img src={require('../images/logo.png')} className = "logo"></img>
+          <img src={require('./images/logo.png')} className = "logo"></img>
             <p className="msgDlvry">MSG DLVRY</p>
           </Link>
           <Link to="/contact">
