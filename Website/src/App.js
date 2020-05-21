@@ -26,7 +26,7 @@ export class App extends Component {
             <p className="msgDlvry">MSG DLVRY</p>
           </Link>
           <Link to="/contact">
-            <p className="contact">Contact</p>
+            <p className="contact">Contact 1</p>
           </Link>
           <Link to="/aboutus">
             <p className="about-us">About us</p>
