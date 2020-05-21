@@ -22,7 +22,7 @@ export class App extends Component {
       <header className="App-header">
         <div className="header">
           <Link to="/">
-          <img alt="logo" src={logo} className = "logo"></img>
+          <img src={logo} className = "logo"></img>
             <p className="msgDlvry">MSG DLVRY</p>
           </Link>
           <Link to="/contact">

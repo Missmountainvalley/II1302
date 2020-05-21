@@ -23,7 +23,7 @@ class Contact extends Component {
             <p className="contact-title6"> Email: inaric@kth.se</p>
           </div>
           <div className="ah">
-            <img alt="Amanda" src={amanda} className="bildah"></img>
+            <img src={amanda} className="bildah"></img>
             <p className="contact-title7">Amanda Heynes</p>
             <p className="contact-title8"> Email: heynes@kth.se</p>
           </div>
