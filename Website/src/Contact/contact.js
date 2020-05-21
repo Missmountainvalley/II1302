@@ -18,12 +18,12 @@ class Contact extends Component {
             <p className="contact-title4"> Email: jasber@kth.se</p>
           </div>
           <div className="ir">
-            <img alt="Ina" src={ina} className="bildir"></img>
+            <img alt="Ina" src={require ('../images/Ina.jpg')} className="bildir"></img>
             <p className="contact-title5"> Ina Rickman</p>
             <p className="contact-title6"> Email: inaric@kth.se</p>
           </div>
           <div className="ah">
-            <img src={require('../images/amanda.png')} className="bildah"></img>
+            <img src={require ('../images/amanda.jpg')} className="bildah"></img>
             <p className="contact-title7">Amanda Heynes</p>
             <p className="contact-title8"> Email: heynes@kth.se</p>
           </div>
