@@ -14,7 +14,7 @@ class Home extends Component {
   render() {
     return (
     <div className="home">
-      <p className="headline1">Welcome to your door-display application!</p>
+      <p className="headline1">Welcome to your door-display application!!!</p>
       <div className="subhead">
         <p className="sub-headline">Time to update your display!</p>
         <img alt="pic" src={logo} className = "bild4"></img>
